@@ -38,6 +38,21 @@ console.log(sl.slice(1,7));
 console.log(sl.slice(-2));
 
 
+// replace
+let rep="ilovecoding";
+console.log(rep.replace("love","do"));
+console.log(rep.replace("o","x"));
+// repeat(copies)
+console.log(rep.repeat(2));
+
+
+// practice
+let pr="help!";
+console.log(pr.trim().toUpperCase());
+let n1="ApnaCollege";
+console.log(n1.slice(4).replace("l","t").replace("l","t"));
+
+
 
 
 
