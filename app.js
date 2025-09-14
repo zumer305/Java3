@@ -55,6 +55,21 @@ console.log(n1.slice(4).replace("l","t").replace("l","t"));
 
 
 
+// array
+// let student1="zumer";
+// let student2="alishba";
+let students=["zumer","alishba"];
+console.log(students);
+
+
+// visualization
+let num=[1,2,3,4,5,"zumer"];
+console.log(num[2]);
+console.log(num[5]);
+
+
+
+
 
 
 
