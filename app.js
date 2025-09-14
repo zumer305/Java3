@@ -119,12 +119,57 @@ console.log(a1.concat(mon));
 // reverse of array
 console.log(mon.reverse());
 
-// slice
+// slice (original array hamesha treat)
 let sli=["white","blue","yellow","pink","brown"];
 console.log(sli.slice());
 console.log(sli.slice(2));
 console.log(sli.slice(2,4)); //last +1 extra likhna hota not included
 console.log(sli.slice(-2));  //length-num
+console.log(sli)
+
+
+// splice (hamesha peechli array treat)
+let slic=["brown","pink","yellow","blue","white"];
+console.log(slic.splice(2));
+console.log(slic) //yah bach gaya array ma
+console.log(slic.splice(0,1));
+console.log(slic.splice(0,1,"black","grey")); // start,countdel,add,add
+console.log(slic)
+
+
+// sorting {numbers pr kam ni krta}
+let sorting=["mon","wed","friday"];
+console.log(sorting.sort());
+
+
+// practice
+let mnth=["january","july","march","august"];
+console.log(mnth.splice(0,2,"july","june"));
+console.log(mnth);
+
+
+
+
+// reversing
+let re=["C","C++","Java","python"];
+console.log(re.reverse().indexOf("C++"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
