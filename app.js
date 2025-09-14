@@ -113,6 +113,20 @@ console.log(mon.indexOf("jul"));
 console.log(mon.includes("july"));
 console.log(mon.includes("jul"));
 
+// concat
+console.log(a1.concat(mon));
+
+// reverse of array
+console.log(mon.reverse());
+
+// slice
+let sli=["white","blue","yellow","pink","brown"];
+console.log(sli.slice());
+console.log(sli.slice(2));
+console.log(sli.slice(2,4)); //last +1 extra likhna hota not included
+console.log(sli.slice(-2));  //length-num
+
+
 
 
 
