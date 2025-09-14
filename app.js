@@ -66,6 +66,58 @@ console.log(students);
 let num=[1,2,3,4,5,"zumer"];
 console.log(num[2]);
 console.log(num[5]);
+console.log(typeof num); //array is object
+console.log(num[5][2]); //array index.zumer ka index
+console.log(num[5].length); 
+console.log(num.length); //length
+
+
+// strings are immutable(not changeable)
+// arrays are mutable(changeable)
+let str="zumer";
+str[0]="l";
+console.log(str);
+
+
+let a1=["zumer","alishba"];
+a1[0]="bisma";
+console.log(a1);
+a1[5]="yes";
+console.log(a1);
+//push(add) and pop(delete) -----------(end)
+console.log(a1.push("mama"));
+console.log(a1);
+
+console.log(a1.pop());
+console.log(a1);
+
+// unshift(add) and shift(delete)--------- (start)
+console.log(a1.unshift("start"));
+console.log(a1);
+
+console.log(a1.shift());
+console.log(a1);
+
+
+// practice
+let mon=["january","july","march","august"];
+console.log(mon.shift());
+console.log(mon.shift());
+console.log(mon.unshift("june"));
+console.log(mon.unshift("july"));
+console.log(mon);
+
+// indexOfand include
+console.log(mon.indexOf("july"));
+console.log(mon.indexOf("jul"));
+console.log(mon.includes("july"));
+console.log(mon.includes("jul"));
+
+
+
+
+
+
 
 
 
