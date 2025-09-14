@@ -174,6 +174,9 @@ console.log(na.length);
 console.log(na[0][1]); //na[row][column]
 
 
+// practice qs
+let prc=[["X",null,"O"],[null,"X",null],["O",null,"X"]];
+console.log(prc);
 
 
 
