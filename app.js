@@ -167,6 +167,14 @@ const arrr=[1,2,3];
 console.log(arrr);
 
 
+// nested array
+let na=[[1,2,3],[4,5,6]];
+console.log(na);
+console.log(na.length);
+console.log(na[0][1]); //na[row][column]
+
+
+
 
 
 
