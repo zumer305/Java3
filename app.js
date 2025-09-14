@@ -155,6 +155,25 @@ let re=["C","C++","Java","python"];
 console.log(re.reverse().indexOf("C++"));
 
 
+// array refernce same address of  arr1 and arr2 
+let arr1=["a","b"];
+let arr2=arr1;
+console.log(arr2);
+
+
+// const means ka array ko {completely} new nHI kr skty
+const arrr=[1,2,3];
+// arrr=[2,3,4]; //error
+console.log(arrr);
+
+
+
+
+
+
+
+
+
 
 
 
